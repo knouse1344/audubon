@@ -13,30 +13,22 @@
  */
 
 body {
-	background: #fff;
-	overflow-y: scroll;
+	overflow-y: scroll;	
+	background: url('/assets/bg.png') repeat-y;
+	width: 100%;
+	background-position: center;
 }
 
 #container {
-	position: static;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1400px;
-	min-height: 100%;
-	margin-top: -40px;
-	background: url('/assets/bg_light.png') repeat-y;
 
-	#content {
+	#nav {
 		width: 1000px;
-		margin-left: auto;
-		margin-right: auto;
+		height: 80px;
 		margin-top: 40px;
-
-		#nav {
-			width 1000px;
-			height: 80px;
-			border: 1px solid #000;
-		}
+		border: 1px solid #000;
 	}
 }
 
