@@ -14,13 +14,13 @@
 
 body {
 	overflow-y: scroll;	
-	background: url('/assets/bg.png') repeat-y;
-	width: 100%;
+	background: url('/assets/bg_light.png') repeat-y;
 	background-position: center;
 }
 
 #container {
-	width: 1000px;
+	width: 1050px;
+	min-height: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -28,7 +28,19 @@ body {
 		width: 1000px;
 		height: 80px;
 		margin-top: 40px;
+		background: #999;
 		border: 1px solid #000;
 	}
+}
+
+#footer {
+	color: #888;
+	width: 300px;
+	font-size: 13px;
+	position: absolute;
+	padding-bottom: 40px;
+	margin-top: 100px;
+	left: 50%;
+	margin-left: -150px;
 }
 

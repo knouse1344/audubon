@@ -3,6 +3,9 @@ Audubon::Application.routes.draw do
   # first created -> highest priority.\
 
   get 'main/home'
+  get 'main/membership'
+  get 'main/njas'
+  
   root :to => 'main#home'
   
   # Sample of regular route:
