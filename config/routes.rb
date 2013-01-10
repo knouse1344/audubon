@@ -1,10 +1,9 @@
 Audubon::Application.routes.draw do
   # The priority is based upon order of creation:
-  # first created -> highest priority.
-   
-    root :to => 'welcome#index'
+  # first created -> highest priority.\
 
-    get 'main/home'
+  get 'main/home'
+  root :to => 'main#home'
   
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
