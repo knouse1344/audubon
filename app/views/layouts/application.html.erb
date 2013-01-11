@@ -10,7 +10,10 @@
 		<div id="container">
 
 				<div id="nav">
-					<p> Navigation! </p>
+					<%= link_to "Home","/main/home", :class => "navlink" %>
+					<%= link_to "NJAS","/main/njas", :class => "navlink" %>
+					<%= link_to "Membership","/main/membership", class: "navlink" %>
+
 				</div>
 
 				<%= yield %>
