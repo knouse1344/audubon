@@ -10,10 +10,14 @@
 		<div id="container">
 
 				<div id="nav">
-					<%= link_to 'Home',"/main/home", class: "navlink" %>
-					<%= link_to 'NJAS',"/main/njas", class: "navlink" %>
-					<%= link_to "Membership","/main/membership", class: "navlink" %>
-					<%= link_to "About The Watershed","/main/about", class: "navlink" %>
+					<img src="/assets/finished_logo.png" />
+
+					<div class="links_grp">
+						<%= link_to 'Home',"/main/home", class: "navlink" %>
+						<%= link_to 'NJAS',"/main/njas", class: "navlink" %>
+						<%= link_to "Membership","/main/membership", class: "navlink" %>
+						<%= link_to "About","/main/about", class: "navlink" %>
+					</div>
 				</div>
 
 				<%= yield %>

@@ -19,20 +19,38 @@ body {
 }
 
 #container {
-	width: 1050px;
+	width: 1158px;
 	min-height: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 
 	#nav {
-		width: 1000px;
+		width: 1160px;
 		height: 80px;
 		margin-top: 40px;
-		background: #999;
-		border: 1px solid #000;
+		padding-top: 5px;
+		background: #005203;
+		box-shadow: 0px 1px #888;
 
-		.navlink {
-			margin-right: 40px;
+		img {
+			height: 80px;
+		}
+
+		.links_grp {
+			text-align: right;
+			margin-top: -35px;
+
+			.navlink {
+				color: #fff;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: bold;
+				margin-right: 40px;
+			}
+
+			.navlink:hover {
+				color: #cacaca;
+			}
 		}
 	}
 }
