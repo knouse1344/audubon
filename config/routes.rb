@@ -5,6 +5,7 @@ Audubon::Application.routes.draw do
   get 'main/home'
   get 'main/membership'
   get 'main/njas'
+  get 'main/about'
   
   root :to => 'main#home'
   

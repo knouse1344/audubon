@@ -9,3 +9,6 @@ end
 
 def njas
 end
+
+def about
+end
