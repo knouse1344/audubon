@@ -7,8 +7,14 @@ end
 def membership
 end
 
-def njas
+def about
 end
 
-def about
+def news
+end
+
+def advocacy
+end
+
+def signup
 end
