@@ -6,16 +6,17 @@
 	padding:50px;
 
 	.img_header {
-		width: 1158px;
+		width: 1258px;
 		margin-left: -50px;
-		margin-top: -50px;
-		height: 200px;
-		border: 1px solid;
-
-		img {
-			height: 200px;
-		}
+		margin-bottom: 40px;
+		height: 250px;
+		overflow: hidden;
 	}
+
+	.heading {
+		text-align: center;
+	}
+
 	.header {
 		font-size: 24px;
 		font-weight: bold;
@@ -23,7 +24,7 @@
 	}
 
 	.description {
-		font-size: 16px;
+		font-size: 14px;
 		font-style: italic;
 		margin-top: 25px;
 	}
@@ -60,9 +61,6 @@
 		}
 	}
 
-	.row {
-
-	}
 	.form_header {
 		margin-top: 50px;
 	}
@@ -96,7 +94,6 @@
 		margin-right:15px;
 		background: #efefef;
 		border: 1px solid #cacaca;
-		box-shadow: 1px 1px #cacaca;
 
 
 		.title {
@@ -111,6 +108,7 @@
 			width: 140px;
 			margin-top: 5px;
 			margin-bottom: 15px;
+			border: 1px solid #cacaca;
 		}
 
 		.info {
@@ -121,7 +119,6 @@
 
 #news {
 	padding: 50px;
-	border: 1px solid;
 }
 
 #advocacy {

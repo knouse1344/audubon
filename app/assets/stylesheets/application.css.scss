@@ -12,33 +12,40 @@
  *= require_tree .
  */
 
+html {
+	height: 100%;
+}
+
 body {
 	overflow-y: scroll;	
-	background: url('/assets/bg_light.png') repeat-y;
+	height: 100%;
+	background: url('/assets/bg_70.png') repeat-y;
 	background-position: center;
+}
+
+h1 {
+	color: #333;
+	border-bottom: 1px solid #333;
 }
 
 #container {
 	width: 1158px;
-	min-height: 1000px;
+	min-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 
 	#nav {
 		width: 1160px;
-		height: 80px;
-		margin-top: 40px;
+		height: 100px;
+		margin-top: -12px;
 		padding-top: 5px;
-		background: #306782;
+		background: #2C7A71;
 		box-shadow: 0px 1px #888;
-
-		img {
-			height: 80px;
-		}
 
 		.links_grp {
 			text-align: right;
-			margin-top: -35px;
+			margin-top: 70px;
+			vertical-align: bottom;
 
 			.navlink {
 				color: #fff;
@@ -57,13 +64,15 @@ body {
 }
 
 #footer {
-	color: #888;
-	width: 300px;
+	color: #cacaca;
+	background: #2C7A71;
 	font-size: 13px;
-	position: absolute;
-	padding-bottom: 40px;
-	margin-top: 100px;
-	left: 50%;
-	margin-left: -150px;
+	width: 1158px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
