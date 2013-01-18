@@ -9,6 +9,7 @@
 		width: 1258px;
 		margin-left: -50px;
 		margin-bottom: 40px;
+		margin-top: -50px;
 		height: 250px;
 		overflow: hidden;
 	}
@@ -17,16 +18,42 @@
 		text-align: center;
 	}
 
-	.header {
-		font-size: 24px;
-		font-weight: bold;
-		text-align: center;
-	}
-
 	.description {
 		font-size: 14px;
 		font-style: italic;
 		margin-top: 25px;
+	}
+
+	.feat_mem {
+		float: left;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		width: 500px;
+		height: 500px;
+		background: #8CBF9E;
+		border: 1px solid #555;
+
+		img {
+			width: 250px;
+			margin-left: 125px;
+			border: 1px solid #444;
+		}
+	}
+
+	.feat_news {
+		float: right;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		width: 500px;
+		height: 500px;
+		background: #8CBF9E;
+		border: 1px solid #555;
+
+		img {
+			width: 250px;
+			margin-left: 125px;
+			border: 1px solid #444;
+		}
 	}
 }
 
@@ -98,16 +125,16 @@
 
 		.title {
 			height: 30px;
-			line-height: 13px;
-			font-size: 13px;
+			line-height: 15px;
+			font-size: 14px;
 			font-weight: bold;
 		}
 
 		img {
 			height: 140px;
 			width: 140px;
-			margin-top: 5px;
-			margin-bottom: 15px;
+			margin-top: 10px;
+			margin-bottom: 10px;
 			border: 1px solid #cacaca;
 		}
 
