@@ -8,20 +8,33 @@
 	.img_header {
 		width: 1258px;
 		margin-left: -50px;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 		margin-top: -50px;
 		height: 250px;
 		overflow: hidden;
 	}
 
 	.heading {
-		text-align: center;
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 80px;
+		margin-top: 40px;
 	}
 
 	.description {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
 		font-size: 14px;
 		font-style: italic;
-		margin-top: 25px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+
+		.large {
+			font-size: 30px;
+			font-weight: bold;
+		}
 	}
 
 	.featured {
