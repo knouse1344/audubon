@@ -50,15 +50,15 @@
 	.featured {
 		background: url("/assets/box.png");
 		height: 576px;
-		width: 1122px;
+		width: 1158px;
 		float: left;
-		margin-left: 8px;
+		margin-left: -30px;
 
 		.feat_mem {
 			float: left;
 			margin-top: 40px;
 			margin-bottom: 40px;
-			margin-left: 40px;
+			margin-left: 75px;
 			width: 400px;
 			height: 400px;
 			padding: 20px;		
@@ -94,22 +94,13 @@
 		}
 	}
 
-
-	.benefits_contact { 
-		padding: 20px;
-
-		.benefits {
-			width: 500px;
-			display: inline-block;
-		}
-
-		.contact {
-			width: 300px;
-			margin-left: 60px;
-			vertical-align: top;
-			display: inline-block;
-		}
+	.contact {
+		width: 300px;
+		margin-left: 60px;
+		vertical-align: top;
+		display: inline-block;
 	}
+
 }
 
 #membership {
@@ -119,23 +110,22 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 40px;
-		height: 150px;
-		width: 700px;
+		height: 275px;
+		width: 740px;
 
 		img {
-			width: 100px;
+			width: 350px;
 			float: left;
+			margin-top: 5px;
+			margin-right: 5px;
 		}
 
 		.title {
-			position: relative;
-			margin-left: 250px;
-			top: 30px;
-			width: 400px;
+			float: left;
 			height: 80px;
 			font-size: 28px;
 			font-weight: bold;
-			text-align: center;
+			text-align: left;
 
 			.title_desc {
 				font-size: 18px;
@@ -144,7 +134,7 @@
 	}
 
 	.form_header {
-		margin-top: 50px;
+		margin-top: 40px;
 	}
 }
 
@@ -201,6 +191,17 @@
 
 #signup {
 	padding: 50px;
+	width: 800px;
+	height: 840px;
+	background: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	border: 2px solid #333;
+
+	h1 {
+		margin-top: -20px;
+	}
 
 	.form {
 		width: 760px;
