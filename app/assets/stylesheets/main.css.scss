@@ -20,6 +20,17 @@
 		margin-right: auto;
 		margin-bottom: 80px;
 		margin-top: 40px;
+
+		.heading_content {
+			float: left;
+			width: 400px;
+		}
+
+		.group_photo {
+			width: 400px;
+			margin-left: 40px;
+			border: 1px solid #555;
+		}
 	}
 
 	.description {
@@ -27,7 +38,6 @@
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 14px;
-		font-style: italic;
 		margin-top: 40px;
 		margin-bottom: 40px;
 
@@ -58,8 +68,8 @@
 			}
 
 			img {
-				width: 250px;
-				border: 1px solid #444;
+				width: 400px;
+				border: 1px solid #888;
 			}
 		}
 
