@@ -103,6 +103,22 @@
 
 }
 
+#page_head {
+	width: 1158px;
+	background: #6B5536;
+	height: 60px;
+	padding-top: 15px;
+
+	.title {
+		font-size: 36px;
+		font-weight: bold;
+		margin-left: 15px;
+		color: #fff;
+		text-shadow: 2px 2px #111;
+	}
+
+}
+
 #membership {
 	padding:50px;
 
