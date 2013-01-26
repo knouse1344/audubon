@@ -3,7 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #home {
-	padding:50px;
+	padding-left:50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 
 	.img_header {
 		width: 1258px;
@@ -18,8 +20,6 @@
 		width: 900px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 80px;
-		margin-top: 40px;
 
 		.heading_content {
 			float: left;
@@ -38,7 +38,6 @@
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 14px;
-		margin-top: 40px;
 		margin-bottom: 40px;
 
 		.large {
@@ -104,31 +103,31 @@
 }
 
 #page_head {
-	width: 1158px;
-	background: #6B5536;
-	height: 60px;
-	padding-top: 15px;
+	margin-top: 35px;
+	margin-left: 35px;
 
 	.title {
-		font-size: 36px;
+		font-size: 38px;
 		font-weight: bold;
+		text-align: center;
+		margin-bottom: 40px;
 		margin-left: 15px;
 		color: #fff;
-		text-shadow: 2px 2px #111;
+		text-shadow: 1px 1px #555;
 	}
 
 }
 
 #membership {
-	padding:50px;
-
-	.form_header {
-		margin-top: 40px;
-	}
+	padding-left:50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 }
 
 #steering {
-	padding:50px;
+	padding-left:50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 }
 
 .row {
@@ -144,8 +143,8 @@
 		height: 223px;
 		padding-top: 7px;
 		margin-right:15px;
-		background: #efefef;
-		border: 1px solid #cacaca;
+		background: #CCB081;
+		border: 1px solid #000;
 
 
 		.title {
@@ -170,11 +169,15 @@
 }
 
 #news {
-	padding: 50px;
+	padding-left:50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 }
 
 #advocacy {
-	padding: 50px;
+	padding-left:50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 
 }
 
