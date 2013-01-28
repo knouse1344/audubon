@@ -21,11 +21,6 @@
 		margin-left: auto;
 		margin-right: auto;
 
-		.heading_content {
-			float: left;
-			width: 400px;
-		}
-
 		.group_photo {
 			width: 400px;
 			margin-left: 40px;
@@ -47,20 +42,17 @@
 	}
 
 	.featured {
-		background: url("/assets/box.png");
-		height: 576px;
-		width: 1158px;
-		float: left;
-		margin-left: -30px;
+		display: inline-block;
+		width: 1040px;
 
-		.feat_mem {
-			float: left;
-			margin-top: 40px;
-			margin-bottom: 40px;
-			margin-left: 75px;
+		.feat_item {
+			height: 450px;
 			width: 400px;
-			height: 400px;
-			padding: 20px;		
+			padding: 30px;	
+			margin-left: 40px;	
+			background: #7DA885;
+			float: left;
+			box-shadow: 2px 2px #999;
 
 			h2 {
 				border-bottom: 1px solid #555;
@@ -71,35 +63,7 @@
 				border: 1px solid #888;
 			}
 		}
-
-		.feat_news {
-			float: left;
-			margin-top: 40px;
-			margin-bottom: 40px;
-			margin-left: 60px;
-			width: 400px;
-			height: 400px;
-			padding: 20px;
-
-			h2 {
-				border-bottom: 1px solid #555;
-			}
-
-			img {
-				width: 250px;
-				margin-left: 125px;
-				border: 1px solid #444;
-			}
-		}
 	}
-
-	.contact {
-		width: 300px;
-		margin-left: 60px;
-		vertical-align: top;
-		display: inline-block;
-	}
-
 }
 
 #page_head {
