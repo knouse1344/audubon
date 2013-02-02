@@ -217,29 +217,33 @@
 	padding-right: 75px;
 	padding-bottom: 50px;
 
-	.caption {
-		font-size: 11px;
-		line-height: 14px;
-		font-style: italic;
-		width: 400px;
-		float: right;
-		margin-right: 22px;
-		text-align: center;
-	}
-
 	.info {
 		width: 500px;
-		border: 1px solid;
 		float: left;
 	}
 
 	.news_items {
 		margin-bottom: 40px;
 		width: 1050px;
-		height: 500px;
+		height: 300px;
 		
 		p {
 			margin-left: 15px;
+		}
+
+		.caption {
+			font-size: 11px;
+			line-height: 14px;
+			font-style: italic;
+			width: 400px;
+			float: right;
+			margin-right: 80px;
+			text-align: center;
+		}
+
+		img {
+			width: 250px;
+			margin-left: 150px;
 		}
 	}
 
@@ -259,6 +263,22 @@
 			li {
 				margin-top: 15px;
 			}
+		}
+
+		img {
+			margin-top: 15px;
+			margin-left: 100px;
+			width: 300px;
+		}
+
+		.caption {
+			font-size: 11px;
+			line-height: 14px;
+			font-style: italic;
+			width: 400px;
+			float: right;
+			margin-right: 100px;
+			text-align: center;
 		}
 	}
 }
